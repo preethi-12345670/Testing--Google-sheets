@@ -1,0 +1,131 @@
+{
+  "id": "8badf4c1-dc57-4922-abcb-87301dc4085f",
+  "version": "2.0",
+  "name": "Hobby lobby",
+  "url": "https://www.hobbylobby.com/",
+  "tests": [{
+    "id": "e51b8265-ef70-4518-b623-a784bd949b32",
+    "name": "Hobby lobby",
+    "commands": [{
+      "id": "62c29e79-1c04-4a6d-b767-f6dd9c7e605a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hobbylobby.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21043aff-be2c-48fc-9a42-57410cf4128d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1239x970",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cc8a1f2-bcae-4e66-a0f7-a84efb6d6a37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop Departments",
+      "targets": [
+        ["linkText=Shop Departments", "linkText"],
+        ["css=.nav-menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Departments')]", "xpath:link"],
+        ["xpath=//li[@id='departments']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[12]", "xpath:href"],
+        ["xpath=//div[5]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8539d614-3800-4d5a-8dae-f1a0c563108a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Party & Baking",
+      "targets": [
+        ["linkText=Party & Baking", "linkText"],
+        ["css=.open > .department-btn-section a", "css:finder"],
+        ["xpath=//a[contains(text(),'Party & Baking')]", "xpath:link"],
+        ["xpath=//li[@id='collapsingMainNavToggle']/ul/li[6]/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Party-Baking/c/10')]", "xpath:href"],
+        ["xpath=//li[6]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Party & Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a8a567-c552-44c7-9587-510fcb82d641",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-5:nth-child(4) img",
+      "targets": [
+        ["css=.col-5:nth-child(4) img", "css:finder"],
+        ["xpath=//img[@alt=' Category Party Supplies']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[10]/div/div[2]/div[4]/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d620474-5aeb-4019-8a2d-a6c1cfe8b55e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.loading > .loading-indicator",
+      "targets": [
+        ["css=.loading > .loading-indicator", "css:finder"],
+        ["xpath=//div[@id='content']/div[10]/ul/li[6]/div/a/div", "xpath:idRelative"],
+        ["xpath=//li[6]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c964cb4d-7ea8-42b3-88b3-daee91e980d6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col-4:nth-child(6) .loading-indicator",
+      "targets": [
+        ["css=.col-4:nth-child(6) .loading-indicator", "css:finder"],
+        ["xpath=//div[@id='content']/div[10]/ul/li[6]/div/a/div", "xpath:idRelative"],
+        ["xpath=//li[6]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ff70f19-5620-494d-82be-85a99484e357",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#addToCartButton > span",
+      "targets": [
+        ["css=#addToCartButton > span", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']/span", "xpath:idRelative"],
+        ["xpath=//form/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f727d94-27b4-4511-85af-0be61fbc43bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartButton > span",
+      "targets": [
+        ["css=#addToCartButton > span", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']/span", "xpath:idRelative"],
+        ["xpath=//form/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b18d1c3-6c86-46fe-a959-8ff22df109d9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#addToCartButton > span",
+      "targets": [
+        ["css=#addToCartButton > span", "css:finder"],
+        ["xpath=//button[@id='addToCartButton']/span", "xpath:idRelative"],
+        ["xpath=//form/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "013eb133-d627-47af-ab00-6abb2c4da262",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e51b8265-ef70-4518-b623-a784bd949b32"]
+  }],
+  "urls": ["https://www.hobbylobby.com/"],
+  "plugins": []
+}

@@ -1,0 +1,257 @@
+{
+  "id": "2496b447-2a24-4f4d-9f60-4f7b2b4e5b40",
+  "version": "2.0",
+  "name": "Costco",
+  "url": "https://www.costco.com/",
+  "tests": [{
+    "id": "39350487-cb9b-4fd2-bdcb-9fff680d2de4",
+    "name": "Costco",
+    "commands": [{
+      "id": "e1b0a44d-8243-415c-a9c3-c7a22095a9e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.costco.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bc16082-dab7-40a5-81a6-137d33b951b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1239x970",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e4c6e27-12b8-4183-a1a4-a6e1f8f91c21",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=header_order_and_returns",
+      "targets": [
+        ["id=header_order_and_returns", "id"],
+        ["linkText=Orders & Returns", "linkText"],
+        ["css=#header_order_and_returns", "css:finder"],
+        ["xpath=//a[contains(text(),'Orders & Returns')]", "xpath:link"],
+        ["xpath=//a[@id='header_order_and_returns']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.costco.com/OrderStatusCmd?fromYear=2021&fromMonth=9&toYear=2022&toMonth=2')]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Orders & Returns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc320ed9-18c9-4ef4-b302-285b6cc7d757",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=header_order_and_returns",
+      "targets": [
+        ["id=header_order_and_returns", "id"],
+        ["linkText=Orders & Returns", "linkText"],
+        ["css=#header_order_and_returns", "css:finder"],
+        ["xpath=//a[contains(text(),'Orders & Returns')]", "xpath:link"],
+        ["xpath=//a[@id='header_order_and_returns']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.costco.com/OrderStatusCmd?fromYear=2021&fromMonth=9&toYear=2022&toMonth=2')]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Orders & Returns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf9cd99-9d9f-47fc-aac4-8a54a63667bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87050b1e-ff42-4a9b-8d15-30e714e05b02",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "groceries"
+    }, {
+      "id": "e1829dd7-39b8-437f-a6a9-1d8f5b326e9e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d614f7b2-e71b-4218-b5d9-8c7753eb1775",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) > .col-xs-4:nth-child(2) .img-responsive",
+      "targets": [
+        ["css=.row:nth-child(6) > .col-xs-4:nth-child(2) .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'https://mobilecontent.costco.com/live/resource/img/grocery/grocery-6feature-snacks.png')]", "xpath:img"],
+        ["xpath=//div[@id='search-results']/div[10]/div[2]/div/div[3]/div[2]/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "226b2477-e837-4cc1-a05e-f0ebb2bda883",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-xl-2:nth-child(1) .img-responsive",
+      "targets": [
+        ["css=.col-xl-2:nth-child(1) .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'https://mobilecontent.costco.com/live/resource/img/static-us-tiles/nuts.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='search-results']/div[8]/div[2]/div/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b027b44-7c5e-4f3f-9805-6eb53610c4c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col-xl-2:nth-child(1) .img-responsive",
+      "targets": [
+        ["css=.col-xl-2:nth-child(1) .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'https://mobilecontent.costco.com/live/resource/img/static-us-tiles/nuts.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='search-results']/div[8]/div[2]/div/div/div[2]/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6962a4ac-35ac-4c3d-abce-3be07e880b69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xl-2:nth-child(6) .img-responsive",
+      "targets": [
+        ["css=.col-xl-2:nth-child(6) .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'https://mobilecontent.costco.com/live/resource/img/static-us-tiles/snacks-bars.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='search-results']/div[10]/div[2]/div/div/div[2]/div[6]/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de9966d7-e76a-47d6-89b7-051218dafcac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(5) .img-responsive",
+      "targets": [
+        ["css=.col-xs-6:nth-child(5) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Kirkland Signature Protein Bars, Chocolate Chip Cookie Dough, 20-count, 2-pack']", "xpath:img"],
+        ["xpath=//div[4]/div[2]/div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d405f14-7f50-40ac-9198-f6ea543e8eb3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.co-collapse",
+      "targets": [
+        ["css=.co-collapse", "css:finder"],
+        ["xpath=//button[@id='minusQty']/em", "xpath:idRelative"],
+        ["xpath=//ul/div/div/button/em", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cfb7127-5f26-4190-86d0-e06424578e80",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.co-collapse",
+      "targets": [
+        ["css=.co-collapse", "css:finder"],
+        ["xpath=//button[@id='minusQty']/em", "xpath:idRelative"],
+        ["xpath=//ul/div/div/button/em", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d3424c6-8973-4edc-9644-7d6cb9d340ac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=add-to-cart-btn",
+      "targets": [
+        ["id=add-to-cart-btn", "id"],
+        ["name=add-to-cart", "name"],
+        ["css=#add-to-cart-btn", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='add-to-cart']/input", "xpath:idRelative"],
+        ["xpath=//ul/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed322637-e4f9-4b2b-af9c-cecc24ded814",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=add-to-cart-btn",
+      "targets": [
+        ["id=add-to-cart-btn", "id"],
+        ["name=add-to-cart", "name"],
+        ["css=#add-to-cart-btn", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='add-to-cart']/input", "xpath:idRelative"],
+        ["xpath=//ul/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa3d42c-5fb9-4837-9244-a433f6499fd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart-btn",
+      "targets": [
+        ["id=add-to-cart-btn", "id"],
+        ["name=add-to-cart", "name"],
+        ["css=#add-to-cart-btn", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='add-to-cart']/input", "xpath:idRelative"],
+        ["xpath=//ul/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08919fb8-dd0b-4390-aca3-ae602925bea7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=add-to-cart-btn",
+      "targets": [
+        ["id=add-to-cart-btn", "id"],
+        ["name=add-to-cart", "name"],
+        ["css=#add-to-cart-btn", "css:finder"],
+        ["xpath=//input[@id='add-to-cart-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='add-to-cart']/input", "xpath:idRelative"],
+        ["xpath=//ul/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02379c65-b4a6-4767-8e0a-9bcdb0e0d7b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .btn",
+      "targets": [
+        ["css=a > .btn", "css:finder"],
+        ["xpath=//div[@id='costcoModalText']/div[2]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8b26ee20-d104-4e68-a389-3e9446792ef0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["39350487-cb9b-4fd2-bdcb-9fff680d2de4"]
+  }],
+  "urls": ["https://www.costco.com/"],
+  "plugins": []
+}

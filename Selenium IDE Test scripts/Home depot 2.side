@@ -1,0 +1,173 @@
+{
+  "id": "dbb9d2d3-3c8b-4939-8544-1cda888089d8",
+  "version": "2.0",
+  "name": "Home depot 2",
+  "url": "https://www.homedepot.com/",
+  "tests": [{
+    "id": "36b98471-766a-462d-a397-d3eb3aee61e1",
+    "name": "Home depot 2",
+    "commands": [{
+      "id": "d56a8917-7935-4b48-a27c-d7f65d32bece",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79cb6237-4ab3-4e32-ae03-7b25347c3596",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1239x970",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18e661f3-434e-4b82-9967-0c786f3b0931",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='headerSearchForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67b0532d-2918-49f0-a961-94612c515b9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='headerSearchForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "drill set"
+    }, {
+      "id": "9b4bd13d-44df-4c93-b09e-10aea796ee2e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='headerSearchForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c69bde59-0f32-4fc8-9466-b49157ad06e9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,337)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e56abf3-407e-4f7c-ad70-bc2b0982fcd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dimension:nth-child(4) .dimension__item:nth-child(1) .checkbox-btn__label",
+      "targets": [
+        ["css=.dimension:nth-child(4) .dimension__item:nth-child(1) .checkbox-btn__label", "css:finder"],
+        ["xpath=//section[@id='browse-search-dimensions']/div/div[4]/div/div[2]/div[2]/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'$10 - $20 (3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff95314b-3907-42c5-a37a-b68ac0431d6b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ece5f02-fbb8-4a8b-b3a8-76797729b00d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,404)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2889414-97a5-498c-a433-20a01ac32700",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ratings-and-model-number-container:nth-child(3) .ratings--6r7g3",
+      "targets": [
+        ["css=.ratings-and-model-number-container:nth-child(3) .ratings--6r7g3", "css:finder"],
+        ["xpath=//section[@id='browse-search-pods-1']/div[2]/div/div[4]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66f7f040-54d3-4484-9051-6998a8f3b621",
+      "comment": "",
+      "command": "click",
+      "target": "css=.browse-search__pod:nth-child(2) .product-pod--secondary-image",
+      "targets": [
+        ["css=.browse-search__pod:nth-child(2) .product-pod--secondary-image", "css:finder"],
+        ["xpath=(//img[@alt='Multi-Material Drill and Drive Kit (60-Piece)'])[2]", "xpath:img"],
+        ["xpath=//section[@id='browse-search-pods-1']/div[2]/div/div[3]/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d72c10b5-2f3d-4b67-85b1-b6286ef801c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c251ea2b-efd6-40ed-b49a-a4d4e9796a55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div > .bttn > .bttn__content",
+      "targets": [
+        ["css=div > .bttn > .bttn__content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[3]/div/div/div[9]/div/div/div[2]/div/div/div[2]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e66611c-5262-4d29-96f8-ba652fe7bd52",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .bttn > .bttn__content",
+      "targets": [
+        ["css=div > .bttn > .bttn__content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[3]/div/div/div[9]/div/div/div[2]/div/div/div[2]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ab5740e-4de0-4188-a541-79cebe68cb50",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div > .bttn > .bttn__content",
+      "targets": [
+        ["css=div > .bttn > .bttn__content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[3]/div/div/div[9]/div/div/div[2]/div/div/div[2]/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8f264aec-f355-4480-831e-8b75519ba274",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36b98471-766a-462d-a397-d3eb3aee61e1"]
+  }],
+  "urls": ["https://www.homedepot.com/"],
+  "plugins": []
+}

@@ -1,0 +1,280 @@
+{
+  "id": "89c5d563-9e77-4365-ab6f-9cd6b153a3de",
+  "version": "2.0",
+  "name": "Home depot",
+  "url": "https://www.homedepot.com/",
+  "tests": [{
+    "id": "e8e1fc1c-5e47-43f6-b22f-74a38aa6dbb2",
+    "name": "Home depot",
+    "commands": [{
+      "id": "2d2883ad-8931-4eab-95be-4e06d7587136",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.homedepot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c0c7685-1561-4cbf-aef2-2de7de37a23c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1239x970",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "194f02d7-8363-4bf6-a9da-286f7db4be9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Help",
+      "targets": [
+        ["linkText=Help", "linkText"],
+        ["css=.TaskLinks__item:nth-child(8) > .TaskLinks__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Help')]", "xpath:link"],
+        ["xpath=//ul[@id='TasklinkList']/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.homedepot.com/c/customer_service')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2380218f-06d7-4aef-9b2b-eb5644e4e67c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Specials & Offers",
+      "targets": [
+        ["linkText=Specials & Offers", "linkText"],
+        ["css=.ShoppingLinks__link--open", "css:finder"],
+        ["xpath=//a[contains(text(),'Specials & Offers')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/div[4]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.homedepot.com/c/Savings_Center')]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec9fba0-0906-4435-9492-52af428fe676",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,110)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3898da-0763-4a18-9aed-7d64cd8eca1a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1462)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "731be98f-eb58-44a6-8dbb-97967abedd12",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2169)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe8c6491-e887-42ab-8466-10a9052906e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#EtchVisualNav_thd_c12d .visualNav:nth-child(2) .visualNav__img",
+      "targets": [
+        ["css=#EtchVisualNav_thd_c12d .visualNav:nth-child(2) .visualNav__img", "css:finder"],
+        ["xpath=//img[@alt='Furniture savings']", "xpath:img"],
+        ["xpath=//div[@id='EtchVisualNav_thd_c12d']/nav/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/nav/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d9b235d-92ad-43a3-96db-e09f18368810",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Specials & Offers",
+      "targets": [
+        ["linkText=Specials & Offers", "linkText"],
+        ["css=.ShoppingLinks__item:nth-child(6) > .ShoppingLinks__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Specials & Offers')]", "xpath:link"],
+        ["xpath=//div[@id='header']/div/div[4]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.homedepot.com/c/Savings_Center')]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca5b0d61-2fb3-44f0-b007-732487bdca6c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,294)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2879e21a-4778-496f-be72-02d09891ff6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.visual-category-navigation:nth-child(3) .vis-nav__image",
+      "targets": [
+        ["css=.visual-category-navigation:nth-child(3) .vis-nav__image", "css:finder"],
+        ["xpath=//img[@alt='TV Stands']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[4]/div/div/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9149321-b105-4ee9-8eae-5ac8641f5964",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#default_banner_carousel img",
+      "targets": [
+        ["css=#default_banner_carousel img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/delivery-desktop.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='default_banner_carousel']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9465574c-4051-4bd7-8c02-b1f3da693315",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#default_banner_carousel img",
+      "targets": [
+        ["css=#default_banner_carousel img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/delivery-desktop.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='default_banner_carousel']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "513cb741-bc59-47e0-afdf-7df46decd8e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.visual-category-navigation:nth-child(2) .vis-nav__image",
+      "targets": [
+        ["css=.visual-category-navigation:nth-child(2) .vis-nav__image", "css:finder"],
+        ["xpath=//img[@alt='Gray']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[4]/div/div/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac649517-5ef0-42ec-859c-37abdba7f87a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#default_banner_carousel img",
+      "targets": [
+        ["css=#default_banner_carousel img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/bopis-desktop.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='default_banner_carousel']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79030d9a-f4a0-4766-9142-d1ffce0352cd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#default_banner_carousel img",
+      "targets": [
+        ["css=#default_banner_carousel img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/bopis-desktop.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='default_banner_carousel']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "656315e1-a1bc-4578-a006-2b4243a8323b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,35)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b67e1f7f-2f70-4899-b5e9-6ed68e156627",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.browse-search__pod:nth-child(2) .product-pod--secondary-image",
+      "targets": [
+        ["css=.browse-search__pod:nth-child(2) .product-pod--secondary-image", "css:finder"],
+        ["xpath=(//img[@alt='70 in. Grey Wash Wood and Metal TV Stand Fits TVs up to 80 in. with Sliding X Barn Doors'])[2]", "xpath:img"],
+        ["xpath=//section[@id='browse-search-pods-1']/div[2]/div/div[3]/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "850de4d8-c970-48ba-9eaa-e990080664c3",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.browse-search__pod:nth-child(1) .bttn__content",
+      "targets": [
+        ["css=.browse-search__pod:nth-child(1) .bttn__content", "css:finder"],
+        ["xpath=//section[@id='browse-search-pods-1']/div/div/div[4]/div[6]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": "102.5,15.9000244140625"
+    }, {
+      "id": "10e47b09-5d71-45a2-9439-695cd549a797",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.browse-search__pod:nth-child(1) .bttn__content",
+      "targets": [
+        ["css=.browse-search__pod:nth-child(1) .bttn__content", "css:finder"],
+        ["xpath=//section[@id='browse-search-pods-1']/div/div/div[4]/div[6]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": "102.5,15.9000244140625"
+    }, {
+      "id": "d6ea6ced-cccc-4eea-a805-9e9ee8b33797",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.browse-search__pod:nth-child(1) .bttn__content",
+      "targets": [
+        ["css=.browse-search__pod:nth-child(1) .bttn__content", "css:finder"],
+        ["xpath=//section[@id='browse-search-pods-1']/div/div/div[4]/div[6]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": "102.5,15.9000244140625"
+    }, {
+      "id": "7f58d0b4-9b20-4817-9bef-a5df85bb990e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb711ca-a931-4146-8206-05a2c549e732",
+      "comment": "",
+      "command": "click",
+      "target": "css=#HDPPSelectionDeclineButton > .bttn__content",
+      "targets": [
+        ["css=#HDPPSelectionDeclineButton > .bttn__content", "css:finder"],
+        ["xpath=//button[@id='HDPPSelectionDeclineButton']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Decline Protection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abacae41-3838-41a3-8831-a4e07558a1ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bttn > .bttn__content",
+      "targets": [
+        ["css=.bttn > .bttn__content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div[2]/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'View Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "71873504-d419-4a39-859b-aac9b2d99446",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8e1fc1c-5e47-43f6-b22f-74a38aa6dbb2"]
+  }],
+  "urls": ["https://www.homedepot.com/"],
+  "plugins": []
+}

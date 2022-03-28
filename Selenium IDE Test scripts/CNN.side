@@ -1,0 +1,205 @@
+{
+  "id": "f6bc79a4-4edf-4bd1-9bf7-fad15627ffb6",
+  "version": "2.0",
+  "name": "Amazon",
+  "url": "https://www.cnn.com/",
+  "tests": [{
+    "id": "10cdcb74-f356-4852-bc86-2b79dd1aa589",
+    "name": "CNN.COM testing",
+    "commands": [{
+      "id": "30a0bc28-dc30-46b5-8213-516a096ee596",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.cnn.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f54e4be0-d757-4da9-aa08-d0321f172be2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1231x781",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4af1a81-2ea3-4c60-9956-693c55f7cab1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cn > ul > li:nth-child(4) .cd__headline-text",
+      "targets": [
+        ["css=.cn > ul > li:nth-child(4) .cd__headline-text", "css:finder"],
+        ["xpath=//section[@id='homepage-injection-zone-1']/div[2]/div/div/div/ul/li[4]/article/div/div/h3/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/article/div/div/h3/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sleep myths ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e77afc7-eed6-482b-8bcd-624af9241de4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1254)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffd34746-2cf0-42eb-bc10-06a968c97d21",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3363)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34fe49a9-d209-4e11-93d9-8dcc628893bf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4950)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16e54dc4-251f-4c96-8aa6-b0892de51bd3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5054)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dff705ee-3475-426d-8a17-ca441f746704",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5169)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e9e674f-4905-42e4-9207-a40f49c4963d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5224)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7945aad-e037-47de-b4e6-010085c77d77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5966)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86aed9d1-e61b-4d6d-8326-7af23a3345b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Markets",
+      "targets": [
+        ["linkText=Markets", "linkText"],
+        ["css=.Box-sc-1fet97o-0:nth-child(1) .sc-kAzzGY:nth-child(4) .sc-kGXeez:nth-child(1) > .sc-fjdhpX", "css:finder"],
+        ["xpath=(//a[contains(text(),'Markets')])[2]", "xpath:link"],
+        ["xpath=(//a[@name='markets'])[2]", "xpath:attributes"],
+        ["xpath=//footer[@id='footer-nav-container']/div[2]/div/div/nav/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://money.cnn.com/data/markets/')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/div/nav/ul/li[4]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10ad0df1-0a95-4991-8290-af0587f238f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Markets",
+      "targets": [
+        ["linkText=Markets", "linkText"],
+        ["css=.Box-sc-1fet97o-0:nth-child(1) .sc-kAzzGY:nth-child(4) .sc-kGXeez:nth-child(1) > .sc-fjdhpX", "css:finder"],
+        ["xpath=(//a[contains(text(),'Markets')])[2]", "xpath:link"],
+        ["xpath=(//a[@name='markets'])[2]", "xpath:attributes"],
+        ["xpath=//footer[@id='footer-nav-container']/div[2]/div/div/nav/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://money.cnn.com/data/markets/')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/div/nav/ul/li[4]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e013fd8-d51b-4ba4-967c-3e75a5781ba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laaVcq",
+      "targets": [
+        ["css=.laaVcq", "css:finder"],
+        ["xpath=//footer[@id='footer-nav-container']/div/div", "xpath:idRelative"],
+        ["xpath=//footer/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d5e4966-f2e0-4b14-acc8-272cbf31afb9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ob-recIdx-5 .ob-image-ratio",
+      "targets": [
+        ["css=.ob-recIdx-5 .ob-image-ratio", "css:finder"],
+        ["xpath=//div[@id='outbrain_widget_9']/div/div/div[6]/a/span/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[6]/a/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b48f04b2-2797-419e-99e6-b4cac5b5e728",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ob-recIdx-5 .ob-image-ratio",
+      "targets": [
+        ["css=.ob-recIdx-5 .ob-image-ratio", "css:finder"],
+        ["xpath=//div[@id='outbrain_widget_9']/div/div/div[6]/a/span/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[6]/a/span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae711b2-2779-4780-899c-49147b70363f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6729.89990234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfe1db48-2703-4cf2-aa88-a1b88238d852",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Markets",
+      "targets": [
+        ["linkText=Markets", "linkText"],
+        ["css=.Box-sc-1fet97o-0:nth-child(1) .sc-kAzzGY:nth-child(4) .sc-kGXeez:nth-child(1) > .sc-fjdhpX", "css:finder"],
+        ["xpath=(//a[contains(text(),'Markets')])[2]", "xpath:link"],
+        ["xpath=(//a[@name='markets'])[2]", "xpath:attributes"],
+        ["xpath=//footer[@id='footer-nav-container']/div[2]/div/div/nav/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://money.cnn.com/data/markets/')])[2]", "xpath:href"],
+        ["xpath=//footer/div[2]/div/div/nav/ul/li[4]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca71e6fc-f51e-41cf-b353-64c452d0c9ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column:nth-child(1) > .ticker > .ticker-name-change > .posData",
+      "targets": [
+        ["css=.column:nth-child(1) > .ticker > .ticker-name-change > .posData", "css:finder"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7334dbe-747a-4f81-80b4-7cb55eaf1c75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,402)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e0f7e0-d112-4e31-bbd3-c05b99ed4442",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1010)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "88b3fd52-9b26-4cc0-8979-9273b4387411",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["10cdcb74-f356-4852-bc86-2b79dd1aa589"]
+  }],
+  "urls": ["https://www.cnn.com/"],
+  "plugins": []
+}
